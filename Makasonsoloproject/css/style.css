@@ -1,0 +1,512 @@
+/* here is my design for my header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.mylogo img{
+    width: 100px;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+#explore{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: blue;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+/*design for my join for free button*/
+.btn{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.show-bar{
+    display: none;
+}
+.hide-bar{
+    display: none;
+}
+/*here's the design for my body section 1*/
+.content-area{
+    width: 100%;
+    background-color: white;
+}
+.container{
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.container p{
+    padding:20px 0px;
+    font-size: 15px;
+}
+.btn1{
+    padding: 10px 30px;
+    background-color: #007aff;
+    color: antiquewhite;
+    border-color: blue;
+    border-radius: 4px;
+}
+.btn2{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border-color: blue;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btn2:hover{
+    background-color:#007aff ;
+}
+/*here's the design of my body section 2*/
+
+.skyline-container{
+    margin-top: 40px;
+    text-align: center;
+}
+.skyline-container p{
+    padding-bottom: 4px;
+    padding-top: 20px; 
+    font-size: 14px;
+}
+.skyline-container h2{
+    font-size: 14px;
+}
+.icon-row{
+    display: flex;
+    margin-left: 25%;
+}
+.icon{
+    margin: 5px 25px;
+    padding-top: 10%;
+}
+/* here is my design of my body section 3 */
+.Master{
+    width: 90%; 
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(rgba(2, 2, 11, 0.495), rgba(1, 1, 8, 0.552)),  url(/images/bottom_bkgd.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;   
+}
+.Master-container h3{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+}
+.Master-container{
+    padding: 20px 50px;
+    margin-left: auto;
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+}
+.btn3{
+    padding: 10px 40px;
+    color: #007aff;
+    background-color:white;
+    border-color:blue;
+    border-radius: 4px;
+    margin: 50px;     
+}
+.btn3:hover{
+    background-color: #007aff;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*heres my design for body section 4*/
+
+.btn4{
+    background-color: #007aff;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    border-color:  #007aff;
+    font-weight: bold;
+    border: none;
+}
+.btn4:hover{
+    background-color: white;
+}
+.Laptop-box{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.Laptop-box h3{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.412);
+    margin-bottom: 20px;
+}
+.Laptop-box h4{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.id{
+    background-color: rgb(197, 240, 197);
+}
+.Build{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*heres my design for body section 5*/
+.picture-flex{
+    display: flex;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.picture-box h5{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;   
+}
+/* .the{
+    width: 100%;
+    height: 20vh; 
+} */
+.picture-box h6{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.picture-box2 h6{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.picture-box h5{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.btn5{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #ceb528;
+    border: 2px white solid;
+    color: white;
+}
+.btn6{
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;  
+}
+.the{
+    width: 20%;
+    height: 33vh;
+    background-color: #ceb528;
+    
+}
+.the p{
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+.innovate{
+    height: 9vh;
+}
+/* .picture-box{
+    background-color:#ceb528;
+} */
+.plan{
+    color: white;
+}
+.picture-box2{
+    background-color: black;
+    color: white;
+}
+.btn5:hover{
+    background-color: green;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn6:hover{
+    background-color: greenyellow;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*heres my design for body section 6*/
+.container-child{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    margin-right: 20%;
+}
+.container-child h7{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(18, 4, 4, 0.84);
+}
+.child-box img{
+    margin-left: 50%
+}
+.container-child p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color:rgba(18, 4, 4, 0.616) ;
+}
+.btn7{
+    background-color:#007aff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+.btn8{
+    background-color:#007aff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+.btn9{
+    background-color:#007aff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+.btn7:hover{
+    background-color: white;
+    color: black;
+}
+.btn8:hover{
+    background-color: white;
+    color: black;
+}
+.btn9:hover{
+    background-color: white;
+    color: black;
+}
+/*heres my design for body section 7*/
+.footer-box{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 18%;
+}
+.office{
+    font-size: 18px;
+    color: #007aff;
+    font-weight: bold;   
+}
+.address{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+.footer-container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+
+
+@media screen and (max-width:600px) {
+    #nav{
+        display: none;
+        margin-top: 80px;
+        background-color: white;
+       border-radius: 10px;
+       transition: 5s;
+       z-index: 1;
+    }
+    .mylogo{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .show-bar{
+        display: block;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    .hide-bar{
+        display: block;
+        }
+
+/* body section 1*/
+.container{
+    flex-direction: column;
+    width: 100%;
+}
+.content-box img{
+    margin-left: -50px;
+}
+/*here's my design for body section 2*/
+.icon-row{
+    flex-direction: column;
+    margin-right: 20%;   
+}
+.skyline-container{
+    width: 100%;
+}
+.skyline-container h1{
+    margin-left: 2%;
+}
+
+/*here's my design for body section 3*/
+.Master{
+    width: 100%;
+}
+/*here's my design for body section 4*/
+.Laptop-box{
+    flex-direction: column;
+    margin-left: 20%;
+}
+.laptop-container{
+    width: 100%;
+}
+.image-div {
+    padding: 10px;
+    /* margin-top: 20px; */
+}
+ /* .image-div img{
+    padding-top: 30px;
+    margin-top: -30px; 
+
+} */
+.btn4{
+    margin-bottom: 30px;
+}
+
+/*here's my design for body section 5*/
+.picture-flex{
+    flex-direction: column;
+    width: 100%;
+}
+.picture-container{
+    width: 100%;
+}
+.plan{
+    width: 100%;
+    
+}
+.the{
+    width: 90%;
+    height: 33vh;
+    background-color: #ceb528;
+    border-radius: 10px;
+}
+.the p{
+    line-height: 15px;
+    padding-bottom: 5px;
+}
+.picture-box{
+    width: 100%;
+}
+
+.innovate{
+    height: 9vh;
+    margin-bottom: 10px;
+}
+.picture-box2{
+    border-radius: 10px;
+}
+.law{
+    margin-bottom: 20px;
+}
+.man{
+    margin-top: 20px;
+}
+
+/*here's my design for body section 6*/
+.content-child{
+    width: 100%;
+}
+.container-child{
+    flex-direction: column;
+}
+.child-box img{
+    margin-left: -10%; 
+}
+.child-box{
+    margin-left: 25%;
+}
+
+/*here's my design for body section 7*/
+.footer-box{
+    flex-direction: column;
+}
+.office{
+margin-bottom: 30px;
+}
+.address{
+    margin-bottom: 10px;
+}
+.footer-container{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
